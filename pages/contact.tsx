@@ -7,17 +7,17 @@ import { MainLayout } from "../components/layouts/MainLayout";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export default function HomePage() {
+export default function About() {
   return (
     <>
       <MainLayout>
         <div className={styles.description}>
           <p>
             Get started by editing&nbsp;
-            <code className={styles.code}>pages/index.tsx</code>
+            <code className={styles.code}>pages/contact.tsx</code>
           </p>
           <div>
-            <Link href={"/about"}>About</Link>
+            <Link href={"/"}>Index</Link>
           </div>
         </div>
 
